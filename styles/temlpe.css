@@ -3,17 +3,18 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: rgb(54, 50, 50);
-  margin: 1px;
+  margin: auto;
   padding: 0;
   border: #333935;
-  width: 900px;
+  width: max-content;
   height: auto;
 }
 section, section{
   background-color: #cbcbcb;
   border: 1px;
-  width: 400px;
-  margin-left: 27%;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
   display: block;
   text-align: left;
   
@@ -33,7 +34,7 @@ main {
 }
 
 img {
-  width: 400px;
+  width: 50%;
   border-radius: 0px;
   border-color: #333935;
   padding: 0px;
