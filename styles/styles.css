@@ -38,9 +38,12 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    border: #000000;
+    padding: 1%;
+   box-shadow: 0 0 30px gray;
 }
 footer{
     margin-top: 15px;
-    border: 1PX solid #000000;
+    border-top: 1PX solid #000000;
     text-align: center;
 }
