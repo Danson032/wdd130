@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 :root {
     --primary-color: darkblue;
     --secondary-color: #eee;
@@ -34,7 +39,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 2rem;
 }
 
 main {
@@ -53,14 +58,19 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    margin-left: 2rem;
 }
 
 main img {
+    position: relative;
     width: 150px;
     height: auto;
     border: 1px solid var(--border-color);
     padding: 1%;
     box-shadow: var(--box-shadow);
+    float: right;
+    margin: 0rem;
+
 }
 
 footer {
@@ -69,3 +79,16 @@ footer {
     text-align: center;
 }
 
+/* class selector */
+.box{
+    margin: 1rem;
+    border: #000000;
+    padding: 1rem;
+    background-color: rgba(2, 255, 7, 0.605);
+    color: black;
+}
+aside h2{
+    position: absolute;
+    top: 650px;
+    left: 130px;
+}
