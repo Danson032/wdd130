@@ -2,7 +2,6 @@
     --primary-color:rgb(244, 53, 190);
     --secondary-color:rgb(4, 4, 118);
     --accent1-color: rgb(9, 104, 148);
-    --accent2-color:rgb(168, 40, 40);
     --heading-font: "Times New Roman", "Georgia" serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -11,7 +10,7 @@
 }
 header{
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--secondary-color);
 }
 *{
     margin: 0px;
@@ -34,7 +33,7 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
+.socialmedia {
     text-decoration: none;
 }
 .hero img{
