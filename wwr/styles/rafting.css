@@ -1,5 +1,5 @@
 :root{
-    --primary-color:rgba(152, 228, 238, 0.439);
+    --primary-color:rgba(205, 234, 238, 0.982);
     --secondary-color:rgb(4, 4, 118);
     --accent1-color: rgb(9, 104, 148);
     --heading-font: "Times New Roman", "Georgia" serif;
@@ -11,6 +11,14 @@
 header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+nav a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: var(--accent1-color);
 }
 *{
     margin: 0px;
