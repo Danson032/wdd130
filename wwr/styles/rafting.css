@@ -11,11 +11,25 @@
 header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px 80px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    justify-content: space-around;
+    
 }
 nav a{
     color: var(--secondary-color);
     text-decoration: none;
     font-weight: bold;
+    border-right: 0px;
 }
 nav a:hover{
     color: var(--accent1-color);
