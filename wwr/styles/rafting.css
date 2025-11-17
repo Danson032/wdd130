@@ -4,7 +4,7 @@
     --accent1-color: rgb(9, 104, 148);
     --heading-font: "Times New Roman", "Georgia" serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --white-color:rgb(255, 255, 255);
+    --accent2-color:rgb(255, 255, 255);
 }
 
 .hero {
@@ -90,7 +90,7 @@ article {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: var(--white-color);
+    color: var(--accent2-color);
 }
 
 .hero article {
@@ -100,7 +100,7 @@ article {
     transform: translateX(-50%);
     width: 100%;
     opacity: 0.8;
-    background-color: var(--white-color);
+    background-color: var(--accent2-color);
     margin: 2%;
     padding: 2px;
 }
