@@ -2,9 +2,10 @@
     --primary-color: rgba(197, 224, 228, 0.982);
     --secondary-color: rgb(4, 4, 118);
     --accent1-color: rgb(9, 104, 148);
-    --heading-font: "Times New Roman", "Georgia" serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     --accent2-color:rgb(255, 255, 255);
+    --accent3-color: rgb(63, 202, 42);
 }
 
 .hero {
@@ -73,6 +74,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero img {
@@ -131,4 +133,83 @@ article {
     padding-top: 4px;
     font-size: 0.9rem;
     color: var(--secondary-color);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    width: 100%;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: var(--accent3-color);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 840px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0; 
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px; 
+    margin: 0; 
+}
+
+.socialmedia a img {
+    width: 24px; 
+    height: 24px;
+    display: block;
+}
+.maps-form-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 20px 0;
+}
+
+
+.maps iframe {
+    width: 400px;
+    height: 450px;
+    border: 0;
 }
