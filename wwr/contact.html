@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Get in touch with Dykes Water Rafting for bookings, inquiries, and personalized rafting experiences. Our friendly team is ready to help you plan your adventure on the water.">
+        content="Book your rafting adventure with Dykes Water Rafting. Friendly team, unforgettable experiences on the water.">
     <meta name="author" content="Danson Nganga">
     <title>Contact Us - Dykes Water Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
@@ -24,6 +24,7 @@
         </nav>
     </header>
     <main>
+        <h1>Dykes Water Rafting - Contact Us</h1>
         <div class="Address">
             <h2>Dykes water wrafting Company</h2>
             <h3>321 Main River street</h3>
@@ -47,24 +48,26 @@
                 <input type="email" id="email" name="email" required>
                 <fieldset class="radio-group">
                     <legend>Purpose of Your Message</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" required> General Inquiry
+                    <label for="purpose-general">
+                        <input type="radio" name="purpose" value="general" id="purpose-general" required> General
+                        Inquiry
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation"> Reservation Question
+                    <label for="purpose-reservation">
+                        <input type="radio" name="purpose" value="reservation" id="purpose-reservation"> Reservation
+                        Question
                     </label>
-                    <label>
-                        <input type="radio" name="purpose" value="website"> Website Suggestion
+                    <label for="purpose-website">
+                        <input type="radio" name="purpose" value="website" id="purpose-website"> Website Suggestion
                     </label>
                 </fieldset>
 
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
                 <div class="checkbox-group">
-                    <label>
-                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    <label for="newsletter">
+                        <input type="checkbox" name="newsletter" id="newsletter"> Please subscribe me to the monthly
+                        newsletter
                     </label>
                 </div>
+
                 <button type="submit">Send Your Message</button>
             </form>
         </div>
