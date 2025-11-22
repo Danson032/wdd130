@@ -37,39 +37,48 @@
             <div class="maps">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165737.97833696936!2d37.24703714440509!3d-0.6939788784937057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1763760144784!5m2!1sen!2ske"
-                    width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
             <form action="/submit-form" method="post">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required>
+
                 <label for="email">Your Email Address</label>
                 <input type="email" id="email" name="email" required>
+
                 <fieldset class="radio-group">
                     <legend>Purpose of Your Message</legend>
+
                     <label for="purpose-general">
-                        <input type="radio" name="purpose" value="general" id="purpose-general" required> General
-                        Inquiry
+                        <input type="radio" name="purpose" value="general" id="purpose-general" required>
+                        General Inquiry
                     </label>
+
                     <label for="purpose-reservation">
-                        <input type="radio" name="purpose" value="reservation" id="purpose-reservation"> Reservation
-                        Question
+                        <input type="radio" name="purpose" value="reservation" id="purpose-reservation">
+                        Reservation Question
                     </label>
+
                     <label for="purpose-website">
-                        <input type="radio" name="purpose" value="website" id="purpose-website"> Website Suggestion
+                        <input type="radio" name="purpose" value="website" id="purpose-website">
+                        Website Suggestion
                     </label>
                 </fieldset>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
                 <div class="checkbox-group">
                     <label for="newsletter">
-                        <input type="checkbox" name="newsletter" id="newsletter"> Please subscribe me to the monthly
-                        newsletter
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        Please subscribe me to the monthly newsletter
                     </label>
                 </div>
 
                 <button type="submit">Send Your Message</button>
             </form>
+
         </div>
         <section>
             <h2>We Are Here to Serve You!</h2>
