@@ -106,6 +106,17 @@ article {
     margin: 2%;
     padding: 2px;
 }
+.hero form{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 100%;
+    opacity: 0.8;
+    margin: 3%;
+    padding: 2px;
+    
+}
 
 .hero article img {
     width: 125px;
