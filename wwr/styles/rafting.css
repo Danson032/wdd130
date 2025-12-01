@@ -50,7 +50,6 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
-
 header,
 main,
 footer {
@@ -204,7 +203,16 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+.btn{
+    padding: 10px 20px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover,
 form button:hover {
     background-color: var(--accent3-color);
 }
