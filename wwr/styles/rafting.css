@@ -79,7 +79,7 @@ article {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    max-width: calc(50%,-50vw);
 }
 
 .hero h1 {
@@ -174,8 +174,7 @@ form label {
 }
 
 .newsletter input[type="text"],
-.newsletter input[type="email"],
-.newsletter input[type="password"] {
+.newsletter input[type="email"]{
     padding: 8px;
     border: 1px solid var(--secondary-color);
     border-radius: 4px;
