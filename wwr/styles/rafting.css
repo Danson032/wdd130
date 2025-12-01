@@ -4,7 +4,7 @@
     --accent1-color: rgb(9, 104, 148);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --accent2-color:rgb(255, 255, 255);
+    --accent2-color: rgb(255, 255, 255);
     --accent3-color: rgb(63, 202, 42);
 }
 
@@ -88,7 +88,7 @@ article {
     bottom: 90%;
     transform: translateY(-50%);
     width: 100%;
-    padding: 16px;
+    padding: 8px;
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
@@ -106,7 +106,8 @@ article {
     margin: 2%;
     padding: 2px;
 }
-.hero form{
+
+.hero form {
     position: absolute;
     bottom: 30%;
     left: 50%;
@@ -115,7 +116,7 @@ article {
     opacity: 0.8;
     margin: 3%;
     padding: 2px;
-    
+
 }
 
 .hero article img {
@@ -145,6 +146,7 @@ article {
     font-size: 0.9rem;
     color: var(--secondary-color);
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -158,9 +160,28 @@ form {
     color: var(--secondary-color);
 }
 
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin-top: 1%;
+}
+
 form label {
     font-weight: bold;
     margin-bottom: 4px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter input[type="password"] {
+    padding: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    width: 100%;
 }
 
 form input[type="text"],
@@ -187,6 +208,7 @@ form button {
 form button:hover {
     background-color: var(--accent3-color);
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -197,25 +219,26 @@ footer {
 }
 
 footer p {
-    margin: 0; 
+    margin: 0;
 }
 
 .socialmedia {
     display: flex;
-    gap: 10px; 
-    margin: 0; 
+    gap: 10px;
+    margin: 0;
 }
 
 .socialmedia a img {
-    width: 24px; 
+    width: 24px;
     height: 24px;
     display: block;
 }
+
 .maps-form-container {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin: 20px 0;
 }
 
